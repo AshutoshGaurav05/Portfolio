@@ -46,6 +46,12 @@
  .heading h2 {
      font-size: 30px;
  }
+ .education h3 {
+     font-size: 30px;
+ }
+ .education h4 {
+     font-size: 20px;
+ }
 
  .heading span {
      font-size: var(--p-font);
@@ -530,4 +536,44 @@
      .contact-button {
          margin-left: 25%;
      }
+ }
+ .technology {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(170px, auto));
+     justify-content: center;
+     gap: 1.5rem;
+     text-align: center;
+ }
+
+ .technology div {
+     border-radius: 0.8rem;
+     background: var(--bg-color);
+     box-shadow: -3px -3px 7px #ffffff73, 2px 2px 5px rgba(94, 104, 121, 0.288);
+ }
+
+ .technology div h3,
+ p {
+     margin: 0.8rem;
+ }
+
+ .work {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+     justify-content: center;
+     gap: 1.5rem;
+     text-align: center;
+     margin-top: 2rem;
+ }
+
+ .work div img {
+     width: 100%;
+     border-radius: 0.5rem;
+ }
+
+ .link a {
+     color: var(--text-color);
+ }
+
+ .link a:hover {
+     color: var(--hover);
  }
